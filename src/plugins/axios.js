@@ -46,10 +46,28 @@ Plugin.install = function (Vue) {
         axios: {
             get() {
                 return _axios;
+            },
+            post() {
+                return _axios;
+            },
+            delete() {
+                return _axios;
+            },
+            patch() {
+                return _axios;
             }
         },
         $axios: {
             get() {
+                return _axios;
+            },
+            post() {
+                return _axios;
+            },
+            delete() {
+                return _axios;
+            },
+            patch() {
                 return _axios;
             }
         },
